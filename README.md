@@ -2,7 +2,7 @@
 A template project based from RenPy Empty Project that has been optimized for Git repository use.
 
 ### Minimum Requirement
-> **Minimum RenPy version:** `7.4.6.1693`
+> **Minimum RenPy version:** `7.4.6.1693`  
 > **Git LFS:**`yes` (you could refer [here](https://git-lfs.github.com/) on how to install Git LFS)
 
 ### Regarding Git LFS
