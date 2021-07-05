@@ -1,0 +1,69 @@
+# Macro for all binary files that should use Git LFS.
+[attr]lfs -text filter=lfs diff=lfs merge=lfs
+
+# Default to auto-normalized line endings.
+* text=auto
+
+# Image
+*.jpg lfs
+*.jpeg lfs
+*.png lfs
+*.apng lfs
+*.atsc lfs
+*.gif lfs
+*.bmp lfs
+*.exr lfs
+*.tga lfs
+*.tiff lfs
+*.tif lfs
+*.iff lfs
+*.pict lfs
+*.dds lfs
+*.xcf lfs
+*.leo lfs
+*.kra lfs
+*.kpp lfs
+*.clip lfs
+*.webm lfs
+*.webp lfs
+*.svg lfs
+*.svgz lfs
+*.psd lfs
+*.afphoto lfs
+*.afdesign lfs
+
+# Audio
+*.mp3 lfs
+*.ogg lfs
+*.wav lfs
+*.aiff lfs
+*.aif lfs
+*.mod lfs
+*.it lfs
+*.s3m lfs
+*.xm lfs
+
+# Video
+*.mov lfs
+*.avi lfs
+*.asf lfs
+*.mpg lfs
+*.mpeg lfs
+*.mp4 lfs
+*.flv lfs
+*.ogv lfs
+*.wmv lfs
+
+# Executables
+*.exe lfs
+*.dll lfs
+*.so lfs
+*.pdb lfs
+*.mdb lfs
+
+# Packaging
+*.zip lfs
+*.7z lfs
+*.gz lfs
+*.rar lfs
+*.tar lfs
